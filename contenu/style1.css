@@ -1,0 +1,47 @@
+* {
+    padding:0;
+    margin:0;
+    border: none;
+    box-sizing: border-box;
+}
+
+
+
+button{
+    background: rgb(170, 150, 83);
+    color: white;
+    font-size: 1.2rem;
+    padding: 1.2rem 2.4rem;
+    border-radius: 5px;
+    transition: all 0.2s;
+}
+
+button:hover {
+    cursor: pointer;
+    opacity: .8;
+}
+
+#notification{
+    position: fixed;
+    color: #ff4754;
+    background: #131416;
+    border-radius: 5px;
+    padding: 1.2rem 2.4rem;
+    box-shadow: 3px 6px 12px rgba(0, 0, 0,.4);
+    bottom: -8rem;
+    transition: all .4s;
+}
+
+#notification.show{
+    bottom: 2rem;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: purple;
+}
+
